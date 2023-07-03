@@ -1,25 +1,26 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from '/logo.png'
 
 const Navbar = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     const menuItems = <>
         <li><a href="#home">Home</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li className="my-btn-outline w-fit"><a href="#resume">Resume</a></li>
+        <li className="resume-btn w-fit"><a href="#resume">Resume</a></li>
     </>
 
     return (
-        <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div className="px-4 md:px-24 lg:px-8 pt-5 pb-5 sm:pb-0 lg:pt-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
             <div className="relative flex items-center justify-between">
-                <p className="text-color text-3xl font-bold tracking-wide">Atikur Rahman</p>
+                <img src={logo} alt="Atikur" />
                 <ul className="hidden lg:flex items-center space-x-8 uppercase font-medium">
                 { menuItems }
                 </ul>
-                <div className="lg:hidden">
+                <div className="lg:hidden px-8">
                     <button
                         aria-label="Open Menu"
                         title="Open Menu"
@@ -29,9 +30,9 @@ const Navbar = () => {
                     </button>
                     {isMenuOpen && (
                         <div className="absolute top-0 left-0 w-full z-10">
-                        <div className="p-5 bg-color border border-[#28e98c] rounded">
+                        <div className="py-5 px-8 bg-color border border-[#28e98c] rounded">
                             <div className="flex items-center justify-between mb-4">
-                                <p className="text-color text-2xl font-bold tracking-wide">Atikur Rahman</p>
+                                    <img className="w-12" src={logo} alt="Atikur" />
                                 <div>
                                     <button
                                     aria-label="Close Menu"
@@ -42,7 +43,7 @@ const Navbar = () => {
                                     </button>
                                 </div>
                             </div>
-                            <nav> Asd54321
+                            <nav>
                             <ul className="space-y-4 uppercase">
                                 { menuItems }
                             </ul>
