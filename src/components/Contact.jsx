@@ -14,21 +14,21 @@ const Contact = () => {
                     {/* <img className='w-12' src={phone} alt="" /> */}
                     <div className=' space-y-1'>
                         <h3 className='font-bold text-white text-xl'>Phone</h3>
-                        <p className='text-gray-500'>+8801963496651</p>
+                        <p className='text-gray-500'>+354 35412 3521</p>
                     </div>
                 </div>
                 <div className='bg-[#1d293a] my-4 rounded-tl-lg rounded-br-lg flex gap-5 py-5 px-5'>
                     {/* <img className='w-12' src={email} alt="" /> */}
                     <div className='space-y-1'>
                         <h3 className='font-bold text-white text-xl'>Email</h3>
-                        <p className='text-gray-500'>oliullah915@gmail.com</p>
+                        <p className='text-gray-500'>atikur@gmail.com</p>
                     </div>
                 </div>
                 <div className='bg-[#1d293a] rounded-tl-lg rounded-br-lg flex gap-3 lg:gap-5 py-5 p-5 w-full'>
                     {/* <img className=' w-10 lg:w-12' src={=} alt="" /> */}
                     <div className='space-y-1'>
                         <h3 className='font-bold text-white text-xl'>Location</h3>
-                        <p className='text-gray-500'>BancharamPur,BrahmanBaria,Bangladesh</p>
+                        <p className='text-gray-500'>Rajshahi,Bangladesh</p>
                     </div>
                 </div>
             </div>
@@ -40,17 +40,17 @@ const Contact = () => {
                     </label>
                     <input name="user_name" type="text" placeholder="Name" className=" border placeholder:text-lg text-white placeholder:font-semibold border-gray-500 p-3 rounded-lg w-full bg-[#1d293a]" />
                 </div>
-                <div className="my-2">
-                    <label className="label">
-                        <span className="font-semibold text-md text-white">Message</span>
-                    </label>
-                    <input type="email" name="user_email" placeholder="Email" className=" border placeholder:text-lg text-white placeholder:font-semibold border-gray-500 p-3 rounded-lg w-full bg-[#1d293a]" />
-                </div>
                 <div className="mb-3">
                     <label className="label">
                         <span className="font-semibold text-md text-white">Email</span>
                     </label>
-                    <textarea name="message" placeholder="Write Your Message" className="textarea border text-white placeholder:text-lg placeholder:font-semibold border-gray-500 p-3 rounded-lg w-full bg-[#1d293a] textarea-lg" ></textarea>
+                    <input name="message" placeholder="Write Your Message" className="textarea border text-white placeholder:text-lg placeholder:font-semibold border-gray-500 p-3 rounded-lg w-full bg-[#1d293a] textarea-lg" ></input>
+                </div>
+                <div className="my-2">
+                    <label className="label">
+                        <span className="font-semibold text-md text-white">Message</span>
+                    </label>
+                    <textarea type="text" name="user_email" placeholder="Message" className=" border placeholder:text-lg text-white placeholder:font-semibold border-gray-500 p-3 rounded-lg w-full bg-[#1d293a]" />
                 </div>
                 <input className='my-btn' type="submit" value="Send Me" />
             </form>
