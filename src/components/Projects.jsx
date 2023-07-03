@@ -3,7 +3,7 @@ import SectionTitle from "./sheared/SectionTitle";
 
 const Projects = () => {
     return (
-        <section className="my-container">
+        <section className="my-container" id="projects">
             <SectionTitle>Latest Projects</SectionTitle>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10'>
             <div className="card w-full bg-[#1d293a] shadow-xl">
