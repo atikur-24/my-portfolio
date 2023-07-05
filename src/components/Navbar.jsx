@@ -30,7 +30,7 @@ const Navbar = () => {
                     </button>
                     {isMenuOpen && (
                         <div className="absolute top-0 left-0 w-full z-10">
-                        <div className="py-5 px-8 bg-[#1d293a] border border-[#28e98c] rounded">
+                        <div className="py-5 px-8 bg-primary border border-[#28e98c] rounded">
                             <div className="flex items-center justify-between mb-4">
                                     <img className="w-12" src={logo} alt="Atikur" />
                                 <div>
