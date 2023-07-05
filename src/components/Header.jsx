@@ -29,8 +29,8 @@ const Header = () => {
                     <p className='text-2xl md:text-4xl primary-color font-bold'><span className='text-white'>I&apos;m a</span> <span ref={title} className='primary-color'  /></p>
                     <p className='text-sm md:text-[16px] md:leading-6 text-justify'>Highly passionate web developer with a strong foundation in front-end development and a passion for creating dynamic, user-friendly web application</p>
                     <div className="flex gap-5 lg:gap-8">
-                        <button className="my-btn uppercase">Hire Me</button>
-                        <button className="my-btn-outline uppercase">About Me</button>
+                        <a className="my-btn uppercase" href='#contact'>Hire Me</a>
+                        <a className="my-btn-outline uppercase" href='#about'>About Me</a>
                     </div>
                 </div>
                 <div className=''>
