@@ -78,6 +78,9 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            <div className="text-center mt-10">
+                <button className="my-btn">See More</button>
+            </div>
         </section>
     );
 };
