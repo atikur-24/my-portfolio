@@ -7,10 +7,10 @@ const Projects = () => {
             <SectionTitle>Latest Projects</SectionTitle>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10'>
                 {/* project 1 */}
-                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[650px] lg:h-[600px]">
+                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[700px] sm:h-[630px] lg:h-[600px]">
                     <div className='portfolio-projects project-1 rounded-t-lg'>
                     </div>
-                    <div className="p-5 space-y-3">
+                    <div className="p-5 space-y-8 md:space-y-3">
                         <h2 className="font-bold text-2xl tracking-wide">Daily fit</h2>
                         <p className="secondary-color text-justify">The website is a gym training center that caters to three main roles: students, trainers, and admins. students can see their selected classes. Include payment system for each selected class. after payment has successfully then the student enrolled this class.</p>
                         <div className="absolute bottom-5 space-y-3">
@@ -31,10 +31,10 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* project 2 */}
-                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[650px] lg:h-[600px]">
+                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[700px] sm:h-[630px] lg:h-[600px]">
                     <div className='portfolio-projects project-2 rounded-t-lg'>
                     </div>
-                    <div className="p-5 space-y-3">
+                    <div className="p-5  space-y-8 md:space-y-3">
                         <h2 className="font-bold text-2xl tracking-wide">Edu Toy Emporium</h2>
                         <p className="secondary-color text-justify">A Education toy store for kids. The seller adds a toy for the customer and also updates his toy details, the seller only his toy removes and updates it.Visit new user toy cards then click the details button to redirect to the login page, after login then show all toy details.</p>
                         <div className="absolute bottom-5 space-y-3">
@@ -55,10 +55,10 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* project 3 */}
-                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[650px] lg:h-[600px]">
+                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[700px] sm:h-[630px] lg:h-[600px]">
                     <div className='portfolio-projects project-3 rounded-t-lg'>
                     </div>
-                    <div className="p-5 space-y-3">
+                    <div className="p-5 space-y-8 md:space-y-3">
                         <h2 className="font-bold text-2xl tracking-wide">Thai Kitchen Chronicles</h2>
                         <p className="secondary-color text-justify">It&apos;s basically a Thailand chef&apos;s information website, chef&apos;s recipes, and bio data. Users can explore the key components of Thai cuisine, and learn about the flavors. Users can like any recipe and gain knowledge about traditional cooking and Thai dishes.</p>
                         <div className="absolute bottom-5 space-y-3">
