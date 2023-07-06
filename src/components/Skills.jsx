@@ -7,7 +7,7 @@ const Skills = () => {
     return (
         <section className="my-container" id="skills">
             <SectionTitle>Skills</SectionTitle>
-            <div className="space-x-5 md:space-x-8 my-10 text-center">
+            <div className="flex justify-start md:justify-center gap-5 md:gap-10 my-10 ">
                 <button className={active ? 'active-tab' : 'inactive-tab'} onClick={ () => setActive(true)} >Front-end & Back-end</button>
                 <button className={active ? 'inactive-tab' : 'active-tab'} onClick={ () => setActive(false)} >Tools & Others</button>
             </div>
