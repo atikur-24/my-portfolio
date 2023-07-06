@@ -2,6 +2,7 @@ import SectionTitle from "./sheared/SectionTitle";
 import { FaEnvelope, FaMapMarkerAlt, FaPaperPlane, FaPhoneAlt } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
+import Swal from "sweetalert2";
 
 const Contact = () => {
     const form = useRef();
@@ -11,7 +12,16 @@ const Contact = () => {
 
         emailjs.sendForm('service_yex7ven', 'template_5r6ct1m', form.current, 'XwuvY8jZ3zDbL2s2i')
         .then((result) => {
-            console.log(result.text);
+            if(result) {
+                Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Your Message Send Successfully',
+                showConfirmButton: false,
+                timer: 1500
+              })
+            }          
+            form.current.reset();
         }, (error) => {
             console.log(error.text);
         });
