@@ -7,7 +7,7 @@ const Projects = () => {
             <SectionTitle>Latest Projects</SectionTitle>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10'>
                 {/* project 1 */}
-                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[600px]">
+                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[650px] lg:h-[600px]">
                     <div className='portfolio-projects project-1 rounded-t-lg'>
                     </div>
                     <div className="p-5 space-y-3">
@@ -31,7 +31,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* project 2 */}
-                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[600px]">
+                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[650px] lg:h-[600px]">
                     <div className='portfolio-projects project-2 rounded-t-lg'>
                     </div>
                     <div className="p-5 space-y-3">
@@ -55,7 +55,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* project 3 */}
-                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[600px]">
+                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[650px] lg:h-[600px]">
                     <div className='portfolio-projects project-3 rounded-t-lg'>
                     </div>
                     <div className="p-5 space-y-3">
