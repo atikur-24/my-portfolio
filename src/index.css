@@ -55,6 +55,10 @@ body {
   @apply rounded-md px-2 md:px-4 py-2 md:py-3 transition duration-200 border border-[#28e98c] text-[#28e98c] font-semibold tracking-wide
 }
 
+.social-btn {
+  @apply bg-[#111a28] hover:bg-[#00cf5d] text-[#28e98c] hover:text-white transition duration-300 p-3 rounded-full shadow-2xl
+}
+
 /* project images style */
 .portfolio-projects{
   width: 100%;
