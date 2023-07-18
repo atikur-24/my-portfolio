@@ -9,7 +9,7 @@ const Footer = () => {
                     <a className="social-btn" href="https://www.facebook.com/profile.php?id=100042385727893"><FaFacebookF /></a>
                     <a className="social-btn" href="https://twitter.com/AtikurRahman247"><FaTwitter /></a>
                     <a className="social-btn" href="https://discord.com/users/913041309802053662"><FaDiscord /></a>
-                    <a className="social-btn" href="www.linkedin.com/in/atikur-rahman-7477bb27b"><FaLinkedinIn /></a>
+                    <a className="social-btn" href="https://www.linkedin.com/in/atikur-rahman7/"><FaLinkedinIn /></a>
                     <a className="social-btn" href="https://github.com/atikur-24"><FaGithub /></a>
                 </div>
             </div>

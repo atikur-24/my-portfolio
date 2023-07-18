@@ -1,4 +1,4 @@
-import banner from '/public/code-dark.json';
+import banner from '../assets/images/banner/code-dark.json';
 import Lottie from "lottie-react";
 import React from 'react';
 import Typed from 'typed.js';
