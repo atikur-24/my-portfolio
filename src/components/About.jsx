@@ -15,19 +15,19 @@ const About = () => {
                     <div className="flex uppercase flex-col md:flex-row md:justify-between md:items-center gap-5 pt-8 md:pt-0">
                         <div className="text-center bg-primary rounded-md px-4 py-3 md:px-8 md:py-6 text-xl font-semibold shadow-lg border-b-4 text-[#28e98c]">
                             <p className="font-bold pb-3 tracking-wide text-2xl md:text-3xl">
-                                <CountUp enableScrollSpy start={10} end={35} delay={0} duration={2.75} />+
+                                <CountUp enableScrollSpy start={20} end={40} delay={0} duration={2.75} />+
                             </p>
                             <p>Repositories</p>
                         </div>
                         <div className="text-center bg-primary rounded-md px-4 py-3 md:px-8 md:py-6 text-xl font-semibold shadow-lg border-b-4 text-[#28e98c]">
                             <p className="font-bold pb-3 tracking-wide text-2xl md:text-3xl">
-                                <CountUp enableScrollSpy start={800} end={1000} delay={0} duration={2.75} />+
+                                <CountUp enableScrollSpy start={0} end={5} delay={0} duration={2.75} />+
                             </p>
-                            <p>Hours of Work</p>
+                            <p>Projects</p>
                         </div>
                         <div className="text-center bg-primary rounded-md px-4 py-3 md:px-8 md:py-6 text-xl font-semibold shadow-md border-b-4 text-[#28e98c]">
                             <p className="font-bold pb-3 tracking-wide text-2xl md:text-3xl">
-                                <CountUp enableScrollSpy start={10} end={50} delay={0} duration={2.75} />+
+                                <CountUp enableScrollSpy start={30} end={70} delay={0} duration={2.75} />+
                             </p>
                             <p>Problem Solved</p>
                         </div>

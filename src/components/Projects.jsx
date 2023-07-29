@@ -77,9 +77,30 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="text-center mt-10">
-                <button className="my-btn">See More</button>
+                {/* project 4 */}
+                <div className="w-full bg-primary shadow-xl rounded-lg relative h-[700px] sm:h-[630px] lg:h-[600px]">
+                    <div className='portfolio-projects project-4 rounded-t-lg'>
+                    </div>
+                    <div className="p-5 space-y-8 md:space-y-3">
+                        <h2 className="font-bold text-2xl tracking-wide">College Booker</h2>
+                        <p className="secondary-color text-justify">This is a college booker website. Show all colleges card, graduation gallery and research paper in home page. When user click details button then show specific college details. User send rating and feedback in my college page.</p>
+                        <div className="absolute bottom-5 space-y-3">
+                            <div className='flex justify-between items-center gap-2'>
+                                <a className="resume-btn" href="https://github.com/atikur-24/college-booker-client"> <FaGithub /> Client</a>
+                                <a className="resume-btn" href="https://github.com/atikur-24/college-booker-server"><FaGithub /> Server</a>
+                                <a className="resume-btn" href="https://college-booker-50fe6.web.app/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Live Site</a>
+                            </div>
+                            <hr className="" />
+                            <p className="flex justify-between items-center text-xs md:text-sm secondary-color">
+                                <span>React</span>
+                                <span>Tailwind CSS</span>
+                                <span>Express</span>
+                                <span>Firebase</span>
+                                <span>MongoDB</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     );
