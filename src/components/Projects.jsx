@@ -137,7 +137,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        {/* project 4 */}
+        {/* project 5 */}
         <div className="w-full bg-primary shadow-xl rounded-lg relative h-[700px] sm:h-[630px] lg:h-[600px]">
           <div className="portfolio-projects project-5 rounded-t-lg"></div>
           <div className="p-5 space-y-8 md:space-y-3">
@@ -165,6 +165,37 @@ const Projects = () => {
                 <span>Express</span>
                 <span>Firebase</span>
                 <span>MongoDB</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* project 6 */}
+        <div className="w-full bg-primary shadow-xl rounded-lg relative h-[700px] sm:h-[630px] lg:h-[600px]">
+          <div className="portfolio-projects project-6 rounded-t-lg"></div>
+          <div className="p-5 space-y-8 md:space-y-3">
+            <h2 className="font-bold text-2xl tracking-wide">Ahead App | Front End </h2>
+            <p className="secondary-color text-justify">
+              This front-end services make your website look great. We have a cool navigation menu, a catchy banner, and fun animations. You can also have fancy cards and a nice footer. Want your site to shine? Contact us!
+            </p>
+            <div className="absolute bottom-5 space-y-3">
+              <div className="flex justify-between items-center gap-2">
+                <a className="resume-btn" href="https://github.com/atikur-24/ahead-app">
+                  {" "}
+                  <FaGithub /> Client
+                </a>
+                {/* <a className="resume-btn disabled" href="">
+                  <FaGithub /> Server
+                </a> */}
+                <a className="resume-btn" href="https://ahead-app-xi.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <FaExternalLinkAlt /> Live Site
+                </a>
+              </div>
+              <hr />
+              <p className="flex justify-between items-center text-xs md:text-sm secondary-color">
+                <span>Next.js</span>
+                <span>Material UI</span>
+                <span>Tailwind CSS</span>
+                <span>AOS Animation</span>
               </p>
             </div>
           </div>
