@@ -3,91 +3,94 @@
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  background-color: #111a28;
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
+    background-color: #111a28;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
 }
 
 .my-container {
-  @apply px-4 md:px-24 lg:px-8 py-16 lg:py-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl;
+    @apply px-4 md:px-24 lg:px-8 py-16 lg:py-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl;
 }
 
 /* text color */
 .primary-color {
-  color: #28e98c;
+    color: #28e98c;
 }
 
 .secondary-color {
-  color: #dddfe2;
+    color: #dddfe2;
 }
 
 /* background color */
 .bg-primary {
-  background-color: #1d293a;
+    background-color: #1d293a;
 }
 
 .bg-secondary {
-  background-color: #00cf5d;
+    background-color: #00cf5d;
 }
 
 /* buttons */
 .my-btn {
-  @apply cursor-pointer bg-[#00cf5d] rounded-md px-3 py-2 md:px-6 md:py-4 text-[18px] font-medium md:font-semibold transition duration-200;
+    @apply cursor-pointer bg-[#00cf5d] rounded-md px-3 py-2 md:px-6 md:py-4 text-[18px] font-medium md:font-semibold transition duration-200;
 }
 
 .my-btn-outline {
-  @apply block hover:bg-[#00cf5d] hover:text-white rounded-md px-3 py-2 md:px-6 md:py-4 text-[18px] font-medium md:font-semibold transition duration-200 border border-[#28e98c] hover:border-[#00cf5d] text-[#28e98c];
+    @apply block hover:bg-[#00cf5d] hover:text-white rounded-md px-3 py-2 md:px-6 md:py-4 text-[18px] font-medium md:font-semibold transition duration-200 border border-[#28e98c] hover:border-[#00cf5d] text-[#28e98c];
 }
 
 .resume-btn {
-  @apply inline-flex items-center gap-2 hover:bg-[#00cf5d] hover:text-white rounded-md px-2 md:px-4 py-1 md:py-2 transition duration-200 border border-[#28e98c] hover:border-[#00cf5d] text-[#28e98c];
+    @apply inline-flex items-center gap-2 hover:bg-[#00cf5d] hover:text-white rounded-md px-2 md:px-4 py-1 md:py-2 transition duration-200 border border-[#28e98c] hover:border-[#00cf5d] text-[#28e98c];
 }
 
 .active-tab {
-  @apply bg-[#00cf5d] rounded-md px-2 md:px-4 py-2 md:py-3 transition duration-200 font-semibold tracking-wide;
+    @apply bg-[#00cf5d] rounded-md px-2 md:px-4 py-2 md:py-3 transition duration-200 font-semibold tracking-wide;
 }
 
 .inactive-tab {
-  @apply rounded-md px-2 md:px-4 py-2 md:py-3 transition duration-200 border border-[#28e98c] text-[#28e98c] font-semibold tracking-wide;
+    @apply rounded-md px-2 md:px-4 py-2 md:py-3 transition duration-200 border border-[#28e98c] text-[#28e98c] font-semibold tracking-wide;
 }
 
 .social-btn {
-  @apply bg-[#111a28] hover:bg-[#00cf5d] text-[#28e98c] hover:text-white transition duration-300 p-3 rounded-full shadow-2xl;
+    @apply bg-[#111a28] hover:bg-[#00cf5d] text-[#28e98c] hover:text-white transition duration-300 p-3 rounded-full shadow-2xl;
 }
 
 /* project images style */
 .portfolio-projects {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  cursor: pointer;
-  transition: ease-in-out 5s;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    cursor: pointer;
+    transition: ease-in-out 5s;
 }
 
 .portfolio-projects:hover {
-  background-position: bottom;
+    background-position: bottom;
 }
 .project-1 {
-  background-image: url(../src/assets/images/projects/medicare-poin.jpg);
+    background-image: url(/img/projects/medicare-poin.jpg);
 }
 .project-2 {
-  background-image: url(../src/assets/images/projects/daily-fit.jpg);
+    background-image: url(/img/projects/daily-fit.jpg);
 }
 .project-3 {
-  background-image: url(../src/assets/images/projects/edu-toy-emporium.jpg);
+    background-image: url(/img/projects/edu-toy-emporium.jpg);
 }
 .project-4 {
-  background-image: url(../src/assets/images/projects/thai-kitchen-chronicles.jpg);
+    background-image: url(/img/projects/thai-kitchen-chronicles.jpg);
 }
 .project-5 {
-  background-image: url(../src/assets/images/projects/college-booker.jpg);
+    background-image: url(/img/projects/college-booker.jpg);
 }
 .project-6 {
-  background-image: url(../src/assets/images/projects/ahead-app.jpg);
+    background-image: url(/img/projects/finance-tracker.png);
+}
+.project-7 {
+    background-image: url(/img/projects/ahead-app.jpg);
 }
