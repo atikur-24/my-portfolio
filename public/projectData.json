@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Medicare Point",
-        "image": "/img/projects/medicare-point.jpg",
+        "image": "project-1",
         "desc": "This is a team project. The website will serve as a platform for users to book medicines, receive health suggestions, and access essential information about doctors for advice. Users can book appointments for various lab tests (e.g., blood tests, urine tests) through the application.",
         "client": "https://github.com/atikur-24/medicare-point-client",
         "server": "https://github.com/atikur-24/medicare-point-server",
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "name": "Daily fit",
-        "image": "/img/projects/daily-fit.jpg",
+        "image": "project-2",
         "desc": "The website is a gym training center that caters to three main roles are students, trainers and admin. students can see their selected classes. Include payment system for each selected class. after payment has successfully then the student enrolled this class.",
         "client": "https://github.com/atikur-24/daily-fit-client",
         "server": "https://github.com/atikur-24/daily-fit-server",
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "name": "Edu Toy Emporium",
-        "image": "/img/projects/edu-toy-emporium.jpg",
+        "image": "project-3",
         "desc": "A Education toy store for kids. The seller adds a toy for the customer and also updates his toy details, the seller only his toy removes and updates it.Visit new user toy cards then click the details button to redirect to the login page, after login then show all toy details.",
         "client": "https://github.com/atikur-24/education-toy-store-client",
         "server": "https://github.com/atikur-24/education-toy-store-server",
@@ -33,7 +33,7 @@
     {
         "id": 4,
         "name": "Thai Kitchen Chronicles",
-        "image": "/img/projects/thai-kitchen-chronicles.jpg",
+        "image": "project-4",
         "desc": "It&apos;s basically a Thailand chef&apos;s information website, chef&apos;s recipes, and bio data. Users can explore the key components of Thai cuisine, and learn about the flavors. Users can like any recipe and gain knowledge about traditional cooking and Thai dishes.",
         "client": "https://github.com/atikur-24/thai-chef-client",
         "server": "https://github.com/atikur-24/thai-chef-server",
@@ -43,7 +43,7 @@
     {
         "id": 5,
         "name": "College Booker",
-        "image": "/img/projects/college-booker.jpg",
+        "image": "project-5",
         "desc": "This is a college booker website. Show all colleges card, graduation gallery and research paper in home page. When user click details button then show specific college details. User send rating and feedback in my college page.",
         "client": "https://github.com/atikur-24/college-booker-client",
         "server": "https://github.com/atikur-24/college-booker-server",
@@ -53,7 +53,7 @@
     {
         "id": 6,
         "name": "Finance Tracker",
-        "image": "/img/projects/finance-tracker.png",
+        "image": "project-6",
         "desc": "The project includes a user-input form with validation form, category-based search, and flexible filtering. The dashboard offers summaries of income and expenses through graphs. Users can easily view, edit, and delete transactions.",
         "client": "https://github.com/atikur-24/finance-tracker-client",
         "server": "https://github.com/atikur-24/personal-finance-tracker-server",
@@ -63,7 +63,7 @@
     {
         "id": 7,
         "name": "Ahead App | Design",
-        "image": "/img/projects/ahead-app.jpg",
+        "image": "project-7",
         "desc": "This front-end services make your website look great. We have a cool navigation menu, a catchy banner, and fun animations. You can also have fancy cards and a nice footer. Want your site to shine? Contact us",
         "client": "https://github.com/atikur-24/ahead-app",
         "server": "https://github.com/atikur-24/ahead-app",
