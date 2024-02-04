@@ -17,7 +17,7 @@ const Project = () => {
 
     return (
         <section className="my-container" id="projects">
-            <SectionTitle>Latest Projects</SectionTitle>
+            <SectionTitle>Latest Project</SectionTitle>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
                 {projects?.slice(0, isShowAll ? projects.length : 6)?.map((project) => (
                     <ProjectCard key={project.id} project={project} />
