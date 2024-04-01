@@ -80,17 +80,20 @@ body {
     background-image: url(/img/projects/daily-fit.jpg);
 }
 .project-3 {
-    background-image: url(/img/projects/edu-toy-emporium.jpg);
+    background-image: url(/img/projects/coffee-shop.jpg);
 }
 .project-4 {
-    background-image: url(/img/projects/thai-kitchen-chronicles.jpg);
+    background-image: url(/img/projects/edu-toy-emporium.jpg);
 }
 .project-5 {
-    background-image: url(/img/projects/college-booker.jpg);
+    background-image: url(/img/projects/thai-kitchen-chronicles.jpg);
 }
 .project-6 {
-    background-image: url(/img/projects/finance-tracker.jpg);
+    background-image: url(/img/projects/college-booker.jpg);
 }
 .project-7 {
+    background-image: url(/img/projects/finance-tracker.jpg);
+}
+.project-8 {
     background-image: url(/img/projects/ahead-app.jpg);
 }

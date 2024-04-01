@@ -21,8 +21,18 @@
     },
     {
         "id": 3,
-        "name": "Edu Toy Emporium",
+        "name": "Coffee Shop",
         "image": "project-3",
+        "desc": "Provide users with options to customize their orders, including size, strength, milk preference, and additional flavors. Enable users to add products and manage their shopping future purchases. Integrate a secure payment gateway. Responsive for multiple devices.",
+        "client": "https://github.com/atikur-24/unlocklive-coffee-shop",
+        "server": "https://github.com/atikur-24/unlocklive-coffee-server",
+        "live": "https://coffee-shop-2-48697.web.app/",
+        "technologies": ["Next.js", "Tailwind CSS", "Shadcn ui", "Express", "MongoDB"]
+    },
+    {
+        "id": 4,
+        "name": "Edu Toy Emporium",
+        "image": "project-4",
         "desc": "A Education toy store for kids. The seller adds a toy for the customer and also updates his toy details, the seller only his toy removes and updates it.Visit new user toy cards then click the details button to redirect to the login page, after login then show all toy details.",
         "client": "https://github.com/atikur-24/education-toy-store-client",
         "server": "https://github.com/atikur-24/education-toy-store-server",
@@ -33,7 +43,7 @@
     {
         "id": 4,
         "name": "Thai Kitchen Chronicles",
-        "image": "project-4",
+        "image": "project-5",
         "desc": "It&apos;s basically a Thailand chef&apos;s information website, chef&apos;s recipes, and bio data. Users can explore the key components of Thai cuisine, and learn about the flavors. Users can like any recipe and gain knowledge about traditional cooking and Thai dishes.",
         "client": "https://github.com/atikur-24/thai-chef-client",
         "server": "https://github.com/atikur-24/thai-chef-server",
@@ -43,7 +53,7 @@
     {
         "id": 5,
         "name": "College Booker",
-        "image": "project-5",
+        "image": "project-6",
         "desc": "This is a college booker website. Show all colleges card, graduation gallery and research paper in home page. When user click details button then show specific college details. User send rating and feedback in my college page.",
         "client": "https://github.com/atikur-24/college-booker-client",
         "server": "https://github.com/atikur-24/college-booker-server",
@@ -53,7 +63,7 @@
     {
         "id": 6,
         "name": "Finance Tracker",
-        "image": "project-6",
+        "image": "project-7",
         "desc": "The project includes a user-input form with validation form, category-based search, and flexible filtering. The dashboard offers summaries of income and expenses through graphs. Users can easily view, edit, and delete transactions.",
         "client": "https://github.com/atikur-24/finance-tracker-client",
         "server": "https://github.com/atikur-24/personal-finance-tracker-server",
@@ -63,7 +73,7 @@
     {
         "id": 7,
         "name": "Ahead App | Design",
-        "image": "project-7",
+        "image": "project-8",
         "desc": "This front-end services make your website look great. We have a cool navigation menu, a catchy banner, and fun animations. You can also have fancy cards and a nice footer. Want your site to shine? Contact us",
         "client": "https://github.com/atikur-24/ahead-app",
         "server": "https://github.com/atikur-24/ahead-app",
