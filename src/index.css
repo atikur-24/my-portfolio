@@ -73,6 +73,9 @@ body {
 .portfolio-projects:hover {
     background-position: bottom;
 }
+.project-0 {
+    background-image: url(/img/projects/e-commerce.jpg);
+}
 .project-1 {
     background-image: url(/img/projects/medicare-point.jpg);
 }

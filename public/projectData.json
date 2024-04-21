@@ -1,5 +1,13 @@
 [
     {
+        "id": 0,
+        "name": "E-commerce | Live Project",
+        "image": "project-0",
+        "desc": "Developed live project for a client. This is a e-commerce application, Created dynamic tools enabling administrators to easily oversee control every part of the application through a user-friendly admin dashboard, ensuring complete management. Ensured responsive design.",
+        "live": "https://medicare-point-1bbbf.web.app/",
+        "technologies": ["Next.js", "Tailwind CSS", "Material UI", "Stripe", "Mongoose"]
+    },
+    {
         "id": 1,
         "name": "Medicare Point",
         "image": "project-1",
