@@ -25,15 +25,15 @@ const About = () => {
             </div>
             <div className="text-center bg-primary rounded-md px-4 py-3 md:px-8 md:py-6 text-xl font-semibold shadow-lg border-b-4 text-[#28e98c]">
               <p className="font-bold pb-3 tracking-wide text-2xl md:text-3xl">
-                <CountUp enableScrollSpy start={5} end={10} delay={0} duration={2.75} />+
+                <CountUp enableScrollSpy start={4} end={10} delay={0} duration={2.75} />+
               </p>
               <p>Projects</p>
             </div>
             <div className="text-center bg-primary rounded-md px-4 py-3 md:px-8 md:py-6 text-xl font-semibold shadow-md border-b-4 text-[#28e98c]">
               <p className="font-bold pb-3 tracking-wide text-2xl md:text-3xl">
-                <CountUp enableScrollSpy start={0} end={1} delay={0} duration={2.75} />+
+                <CountUp enableScrollSpy start={220} end={240} delay={0} duration={2.75} />+
               </p>
-              <p>Years of Experience</p>
+              <p>Working Hours</p>
             </div>
           </div>
         </div>
