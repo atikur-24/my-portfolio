@@ -1,91 +1,91 @@
 [
-    {
-        "id": 0,
-        "name": "E-commerce | Live Project",
-        "image": "project-0",
-        "desc": "Developed live project for a client. This is a e-commerce application, Created dynamic tools enabling administrators to easily oversee control every part of the application through a user-friendly admin dashboard, ensuring complete management. Ensured responsive design.",
-        "live": "https://medicare-point-1bbbf.web.app/",
-        "technologies": ["Next.js", "Tailwind CSS", "Material UI", "Stripe", "Mongoose"]
-    },
-    {
-        "id": 1,
-        "name": "Medicare Point",
-        "image": "project-1",
-        "desc": "This is a team project. The website will serve as a platform for users to book medicines, receive health suggestions, and access essential information about doctors for advice. Users can book appointments for various lab tests (e.g., blood tests, urine tests) through the application.",
-        "client": "https://github.com/atikur-24/medicare-point-client",
-        "server": "https://github.com/atikur-24/medicare-point-server",
-        "live": "https://medicare-point-1bbbf.web.app/",
-        "technologies": ["React", "Redux", "Express", "MongoDB", "SSLCOMMERZ"]
-    },
-    {
-        "id": 2,
-        "name": "Daily fit",
-        "image": "project-2",
-        "desc": "The website is a gym training center that caters to three main roles are students, trainers and admin. students can see their selected classes. Include payment system for each selected class. after payment has successfully then the student enrolled this class.",
-        "client": "https://github.com/atikur-24/daily-fit-client",
-        "server": "https://github.com/atikur-24/daily-fit-server",
-        "live": "https://daily-fit-d36ee.web.app/",
-        "technologies": ["React", "Express", "MongoDB", "Firebase", "Stripe"]
-    },
-    {
-        "id": 3,
-        "name": "Coffee Shop",
-        "image": "project-3",
-        "desc": "Provide users with options to customize their orders, including size, strength, milk preference, and additional flavors. Enable users to add products and manage their shopping future purchases. Integrate a secure payment gateway. Responsive for multiple devices.",
-        "client": "https://github.com/atikur-24/unlocklive-coffee-shop",
-        "server": "https://github.com/atikur-24/unlocklive-coffee-server",
-        "live": "https://coffee-shop-2-48697.web.app/",
-        "technologies": ["Next.js", "Tailwind CSS", "Shadcn ui", "Express", "MongoDB"]
-    },
-    {
-        "id": 4,
-        "name": "Edu Toy Emporium",
-        "image": "project-4",
-        "desc": "A Education toy store for kids. The seller adds a toy for the customer and also updates his toy details, the seller only his toy removes and updates it.Visit new user toy cards then click the details button to redirect to the login page, after login then show all toy details.",
-        "client": "https://github.com/atikur-24/education-toy-store-client",
-        "server": "https://github.com/atikur-24/education-toy-store-server",
-        "live": "https://edu-toy-emporium.web.app/",
-        "technologies": ["React", "Tailwind CSS", "Express", "MongoDB", "Firebase"]
-    },
+  {
+    "id": 0,
+    "name": "E-commerce | Live Project",
+    "image": "project-0",
+    "desc": "Developed live project for a client. This is a e-commerce application, Created dynamic tools enabling administrators to easily oversee control every part of the application through a user-friendly admin dashboard, ensuring complete management. Ensured responsive design.",
+    "live": "https://osthirchoice.vercel.app/",
+    "technologies": ["Next.js", "Tailwind CSS", "Material UI", "Stripe", "Mongoose"]
+  },
+  {
+    "id": 1,
+    "name": "Medicare Point",
+    "image": "project-1",
+    "desc": "This is a team project. The website will serve as a platform for users to book medicines, receive health suggestions, and access essential information about doctors for advice. Users can book appointments for various lab tests (e.g., blood tests, urine tests) through the application.",
+    "client": "https://github.com/atikur-24/medicare-point-client",
+    "server": "https://github.com/atikur-24/medicare-point-server",
+    "live": "https://medicare-point-1bbbf.web.app/",
+    "technologies": ["React", "Redux", "Express", "MongoDB", "SSLCOMMERZ"]
+  },
+  {
+    "id": 2,
+    "name": "Daily fit",
+    "image": "project-2",
+    "desc": "The website is a gym training center that caters to three main roles are students, trainers and admin. students can see their selected classes. Include payment system for each selected class. after payment has successfully then the student enrolled this class.",
+    "client": "https://github.com/atikur-24/daily-fit-client",
+    "server": "https://github.com/atikur-24/daily-fit-server",
+    "live": "https://daily-fit-d36ee.web.app/",
+    "technologies": ["React", "Express", "MongoDB", "Firebase", "Stripe"]
+  },
+  {
+    "id": 3,
+    "name": "Coffee Shop",
+    "image": "project-3",
+    "desc": "Provide users with options to customize their orders, including size, strength, milk preference, and additional flavors. Enable users to add products and manage their shopping future purchases. Integrate a secure payment gateway. Responsive for multiple devices.",
+    "client": "https://github.com/atikur-24/unlocklive-coffee-shop",
+    "server": "https://github.com/atikur-24/unlocklive-coffee-server",
+    "live": "https://coffee-shop-2-48697.web.app/",
+    "technologies": ["Next.js", "Tailwind CSS", "Shadcn ui", "Express", "MongoDB"]
+  },
+  {
+    "id": 4,
+    "name": "Edu Toy Emporium",
+    "image": "project-4",
+    "desc": "A Education toy store for kids. The seller adds a toy for the customer and also updates his toy details, the seller only his toy removes and updates it.Visit new user toy cards then click the details button to redirect to the login page, after login then show all toy details.",
+    "client": "https://github.com/atikur-24/education-toy-store-client",
+    "server": "https://github.com/atikur-24/education-toy-store-server",
+    "live": "https://edu-toy-emporium.web.app/",
+    "technologies": ["React", "Tailwind CSS", "Express", "MongoDB", "Firebase"]
+  },
 
-    {
-        "id": 4,
-        "name": "Thai Kitchen Chronicles",
-        "image": "project-5",
-        "desc": "It&apos;s basically a Thailand chef&apos;s information website, chef&apos;s recipes, and bio data. Users can explore the key components of Thai cuisine, and learn about the flavors. Users can like any recipe and gain knowledge about traditional cooking and Thai dishes.",
-        "client": "https://github.com/atikur-24/thai-chef-client",
-        "server": "https://github.com/atikur-24/thai-chef-server",
-        "live": "https://thai-kitchen-chronicles.web.app/",
-        "technologies": ["React", "Bootstrap CSS", "Express", "Firebase"]
-    },
-    {
-        "id": 5,
-        "name": "College Booker",
-        "image": "project-6",
-        "desc": "This is a college booker website. Show all colleges card, graduation gallery and research paper in home page. When user click details button then show specific college details. User send rating and feedback in my college page.",
-        "client": "https://github.com/atikur-24/college-booker-client",
-        "server": "https://github.com/atikur-24/college-booker-server",
-        "live": "https://college-booker-50fe6.web.app/",
-        "technologies": ["React", "Tailwind CSS", "Express", "Firebase", "MongoDB"]
-    },
-    {
-        "id": 6,
-        "name": "Finance Tracker",
-        "image": "project-7",
-        "desc": "The project includes a user-input form with validation form, category-based search, and flexible filtering. The dashboard offers summaries of income and expenses through graphs. Users can easily view, edit, and delete transactions.",
-        "client": "https://github.com/atikur-24/finance-tracker-client",
-        "server": "https://github.com/atikur-24/personal-finance-tracker-server",
-        "live": "https://finance-tracker-1084c.web.app/",
-        "technologies": ["React", "Express", "MongoDB", "Tailwind CSS", "Firebase"]
-    },
-    {
-        "id": 7,
-        "name": "Ahead App | Design",
-        "image": "project-8",
-        "desc": "This front-end services make your website look great. We have a cool navigation menu, a catchy banner, and fun animations. You can also have fancy cards and a nice footer. Want your site to shine? Contact us",
-        "client": "https://github.com/atikur-24/ahead-app",
-        "server": "https://github.com/atikur-24/ahead-app",
-        "live": "https://ahead-app-xi.vercel.app/",
-        "technologies": ["Next.js", "Material UI", "Tailwind", "AOS Animation"]
-    }
+  {
+    "id": 4,
+    "name": "Thai Kitchen Chronicles",
+    "image": "project-5",
+    "desc": "It&apos;s basically a Thailand chef&apos;s information website, chef&apos;s recipes, and bio data. Users can explore the key components of Thai cuisine, and learn about the flavors. Users can like any recipe and gain knowledge about traditional cooking and Thai dishes.",
+    "client": "https://github.com/atikur-24/thai-chef-client",
+    "server": "https://github.com/atikur-24/thai-chef-server",
+    "live": "https://thai-kitchen-chronicles.web.app/",
+    "technologies": ["React", "Bootstrap CSS", "Express", "Firebase"]
+  },
+  {
+    "id": 5,
+    "name": "College Booker",
+    "image": "project-6",
+    "desc": "This is a college booker website. Show all colleges card, graduation gallery and research paper in home page. When user click details button then show specific college details. User send rating and feedback in my college page.",
+    "client": "https://github.com/atikur-24/college-booker-client",
+    "server": "https://github.com/atikur-24/college-booker-server",
+    "live": "https://college-booker-50fe6.web.app/",
+    "technologies": ["React", "Tailwind CSS", "Express", "Firebase", "MongoDB"]
+  },
+  {
+    "id": 6,
+    "name": "Finance Tracker",
+    "image": "project-7",
+    "desc": "The project includes a user-input form with validation form, category-based search, and flexible filtering. The dashboard offers summaries of income and expenses through graphs. Users can easily view, edit, and delete transactions.",
+    "client": "https://github.com/atikur-24/finance-tracker-client",
+    "server": "https://github.com/atikur-24/personal-finance-tracker-server",
+    "live": "https://finance-tracker-1084c.web.app/",
+    "technologies": ["React", "Express", "MongoDB", "Tailwind CSS", "Firebase"]
+  },
+  {
+    "id": 7,
+    "name": "Ahead App | Design",
+    "image": "project-8",
+    "desc": "This front-end services make your website look great. We have a cool navigation menu, a catchy banner, and fun animations. You can also have fancy cards and a nice footer. Want your site to shine? Contact us",
+    "client": "https://github.com/atikur-24/ahead-app",
+    "server": "https://github.com/atikur-24/ahead-app",
+    "live": "https://ahead-app-xi.vercel.app/",
+    "technologies": ["Next.js", "Material UI", "Tailwind", "AOS Animation"]
+  }
 ]
