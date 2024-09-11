@@ -47,7 +47,7 @@ const Experience = () => {
                 href={project.live_link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mt-2 bg-white text-black font-semibold py-1 px-3 rounded-lg hover:bg-gray-200 transition-colors"
+                className="inline-block mt-2 bg-gray-200 text-black font-semibold py-1 px-3 rounded-lg hover:bg-gray-300 transition-colors"
               >
                 Visit Site
               </a>
