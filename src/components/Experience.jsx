@@ -27,11 +27,22 @@ const Experience = () => {
       {/* Experience Header */}
       <SectionTitle>Experience</SectionTitle>
       <div className="flex items-center justify-between font-medium mt-5">
-        <p className="text-lg font-semibold">DevsGiant</p>
-        <p className="text-sm ">May 2024 - Present</p>
+        <p className="text-lg font-semibold">Company: DevsGiant (child company of NonAcademy)</p>
+        <p className="text-sm italic">May 2024 - Present</p>
       </div>
-      <p className="mt-2 text-gray-200">Role: Frontend Developer</p>
-
+      <p className="mt-2 text-gray-200 font-semibold">Role: MERN Stack Developer</p>
+      <p className="mt-2 text-gray-200 font-medium">Responsibility: </p>
+      <ul className="mt-2 list-disc list-inside text-gray-200 space-y-1.5">
+        <li>Develop and maintain full-stack web applications using MongoDB, Express.js, React.js, and Node.js (MERN).</li>
+        <li>Build server-side rendered (SSR) and static applications with Next.js to enhance SEO and performance.</li>
+        <li>Design RESTful APIs and integrate them with front-end applications to ensure seamless user experience.</li>
+        <li>Collaborate with cross-functional teams to implement new features, optimize performance, and resolve issues.</li>
+        <li>Ensure responsive and accessible UI components and responsive design principles.</li>
+        <li>Manage application state and optimize performance using Redux and other state management libraries.</li>
+        <li>Implement user authentication and authorization workflows using JWT and cookies.</li>
+        <li>Optimize database queries, indexes, and schema design for scalable performance.</li>
+        <li>Debug and troubleshoot production issues while providing timely fixes and updates.</li>
+      </ul>
       {/* Projects Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
         {projects?.map((project) => (
